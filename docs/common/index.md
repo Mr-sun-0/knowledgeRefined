@@ -1,0 +1,4 @@
+---
+sidebar:atuo;
+---
+[TypeScript](./TypeScript)
