@@ -1,3 +1,6 @@
+---
+sidebar:auto
+---
 # [VUEPRESS](http://vuepress.vuejs.org/zh/)
 
 ##  1、[YARM Front Matter](https://jekyllrb.com/docs/front-matter/)
@@ -41,6 +44,16 @@
 1. 基于git提交时间
 2. 修改文字
 3. 时间格式moment(dayjs)
+
+## 6、发布到github.io
+### 1、指向github仓库
+`git config -l`可查看绑定的仓库
+### 2、修改base
+如果部署的位置不是根目录，需要在config文件中配置base
+
+### 3、新增部署文件
+### 4、验证gh-pages
+### 5、设置website,便于他人访问
 
 
 

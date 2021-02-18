@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "微光的个人空间",
   "description": "此心光明，夫复何求",
-  "base": "/",
+  "base": "/docs/",
   "headTags": [
     [
       "meta",
@@ -23,6 +23,65 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Git",
+      "frontmatter": {},
+      "regularPath": "/common/Git/",
+      "relativePath": "common/Git/index.md",
+      "key": "v-1c792bf6",
+      "path": "/common/Git/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、来龙去脉",
+          "slug": "一、来龙去脉"
+        },
+        {
+          "level": 2,
+          "title": "二、常用命令",
+          "slug": "二、常用命令"
+        }
+      ]
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "前端学习记录",
+        "tagline": "微光的个人笔记",
+        "actionText": "快速浏览 →",
+        "actionLink": "/common/",
+        "features": [
+          {
+            "title": "真实理解",
+            "details": "抛开官网外个人学习的真实过程"
+          },
+          {
+            "title": "真实案例",
+            "details": "会有一些做过的项目和案例，包括实际遇到的问题及解决过程"
+          },
+          {
+            "title": "不一样的专注",
+            "details": "会添加一些行业动态和业界历史"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-9bc56a7c",
+      "path": "/",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "前言",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/READ.html",
+      "relativePath": "common/TypeScript/READ.md",
+      "key": "v-f30c7926",
+      "path": "/common/TypeScript/READ.html",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
       "title": "高级",
       "frontmatter": {},
       "regularPath": "/common/TypeScript/advanced/",
@@ -35,44 +94,8 @@ export const siteData = {
           "title": "基础类型",
           "slug": "基础类型"
         }
-      ]
-    },
-    {
-      "title": "前言",
-      "frontmatter": {},
-      "regularPath": "/common/TypeScript/READ.html",
-      "relativePath": "common/TypeScript/READ.md",
-      "key": "v-f30c7926",
-      "path": "/common/TypeScript/READ.html"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "前端学习记录",
-        "tagline": "微光的个人笔记",
-        "actionText": "快速浏览 →",
-        "actionLink": "/common/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-9bc56a7c",
-      "path": "/"
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
       "title": "基础类型-高级",
@@ -122,7 +145,8 @@ export const siteData = {
           "title": "Never",
           "slug": "never"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
       "title": "声明文件",
@@ -212,7 +236,8 @@ export const siteData = {
           "title": "将声明文件发布到 @types 下",
           "slug": "将声明文件发布到-types-下"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
       "title": "声明合并",
@@ -237,32 +262,17 @@ export const siteData = {
           "title": "类的合并",
           "slug": "类的合并"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "装饰器",
+      "title": "Symbols",
       "frontmatter": {},
-      "regularPath": "/common/TypeScript/advanced/decorators.html",
-      "relativePath": "common/TypeScript/advanced/decorators.md",
-      "key": "v-d8348df4",
-      "path": "/common/TypeScript/advanced/decorators.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "介绍",
-          "slug": "介绍"
-        },
-        {
-          "level": 3,
-          "title": "装饰器的种类",
-          "slug": "装饰器的种类"
-        },
-        {
-          "level": 3,
-          "title": "类的装饰器",
-          "slug": "类的装饰器"
-        }
-      ]
+      "regularPath": "/common/TypeScript/advanced/symbols.html",
+      "relativePath": "common/TypeScript/advanced/symbols.md",
+      "key": "v-a1258eac",
+      "path": "/common/TypeScript/advanced/symbols.html",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
       "title": "迭代器和生成器",
@@ -287,15 +297,130 @@ export const siteData = {
           "title": "for..of vs. for..in 语句",
           "slug": "for-of-vs-for-in-语句"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "Symbols",
+      "title": "基础",
       "frontmatter": {},
-      "regularPath": "/common/TypeScript/advanced/symbols.html",
-      "relativePath": "common/TypeScript/advanced/symbols.md",
-      "key": "v-a1258eac",
-      "path": "/common/TypeScript/advanced/symbols.html"
+      "regularPath": "/common/TypeScript/basics/",
+      "relativePath": "common/TypeScript/basics/README.md",
+      "key": "v-b335ee36",
+      "path": "/common/TypeScript/basics/",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "装饰器",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/advanced/decorators.html",
+      "relativePath": "common/TypeScript/advanced/decorators.md",
+      "key": "v-d8348df4",
+      "path": "/common/TypeScript/advanced/decorators.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 3,
+          "title": "装饰器的种类",
+          "slug": "装饰器的种类"
+        },
+        {
+          "level": 3,
+          "title": "类的装饰器",
+          "slug": "类的装饰器"
+        }
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "基础类型-入门",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/basics/basic-types.html",
+      "relativePath": "common/TypeScript/basics/basic-types.md",
+      "key": "v-1db752b4",
+      "path": "/common/TypeScript/basics/basic-types.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 2,
+          "title": "布尔值",
+          "slug": "布尔值"
+        },
+        {
+          "level": 2,
+          "title": "数字",
+          "slug": "数字"
+        },
+        {
+          "level": 2,
+          "title": "字符串",
+          "slug": "字符串"
+        },
+        {
+          "level": 2,
+          "title": "数组",
+          "slug": "数组"
+        },
+        {
+          "level": 2,
+          "title": "元组 Tuple",
+          "slug": "元组-tuple"
+        },
+        {
+          "level": 2,
+          "title": "枚举",
+          "slug": "枚举"
+        },
+        {
+          "level": 2,
+          "title": "any",
+          "slug": "any"
+        },
+        {
+          "level": 2,
+          "title": "void",
+          "slug": "void"
+        }
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "类与接口",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/basics/class-and-interfaces.html",
+      "relativePath": "common/TypeScript/basics/class-and-interfaces.md",
+      "key": "v-5108c986",
+      "path": "/common/TypeScript/basics/class-and-interfaces.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "类实现接口",
+          "slug": "类实现接口"
+        },
+        {
+          "level": 2,
+          "title": "接口继承接口",
+          "slug": "接口继承接口"
+        },
+        {
+          "level": 2,
+          "title": "接口继承类",
+          "slug": "接口继承类"
+        },
+        {
+          "level": 2,
+          "title": "混合类型",
+          "slug": "混合类型"
+        }
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
       "title": "变量声明",
@@ -380,100 +505,182 @@ export const siteData = {
           "title": "展开",
           "slug": "展开"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "基础",
+      "title": "函数的类型",
       "frontmatter": {},
-      "regularPath": "/common/TypeScript/basics/",
-      "relativePath": "common/TypeScript/basics/README.md",
-      "key": "v-b335ee36",
-      "path": "/common/TypeScript/basics/"
-    },
-    {
-      "title": "基础类型-入门",
-      "frontmatter": {},
-      "regularPath": "/common/TypeScript/basics/basic-types.html",
-      "relativePath": "common/TypeScript/basics/basic-types.md",
-      "key": "v-1db752b4",
-      "path": "/common/TypeScript/basics/basic-types.html",
+      "regularPath": "/common/TypeScript/basics/functions.html",
+      "relativePath": "common/TypeScript/basics/functions.md",
+      "key": "v-6aeafdb8",
+      "path": "/common/TypeScript/basics/functions.html",
       "headers": [
         {
           "level": 2,
-          "title": "介绍",
-          "slug": "介绍"
+          "title": "函数声明",
+          "slug": "函数声明"
         },
         {
           "level": 2,
-          "title": "布尔值",
-          "slug": "布尔值"
+          "title": "函数表达式",
+          "slug": "函数表达式"
         },
         {
           "level": 2,
-          "title": "数字",
-          "slug": "数字"
+          "title": "用接口定义函数的形状",
+          "slug": "用接口定义函数的形状"
         },
         {
           "level": 2,
-          "title": "字符串",
-          "slug": "字符串"
+          "title": "可选参数",
+          "slug": "可选参数"
         },
         {
           "level": 2,
-          "title": "数组",
-          "slug": "数组"
+          "title": "参数默认值",
+          "slug": "参数默认值"
         },
         {
           "level": 2,
-          "title": "元组 Tuple",
-          "slug": "元组-tuple"
+          "title": "剩余参数",
+          "slug": "剩余参数"
         },
         {
           "level": 2,
-          "title": "枚举",
-          "slug": "枚举"
-        },
-        {
-          "level": 2,
-          "title": "any",
-          "slug": "any"
-        },
-        {
-          "level": 2,
-          "title": "void",
-          "slug": "void"
+          "title": "重载",
+          "slug": "重载"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "类与接口",
+      "title": "泛型",
       "frontmatter": {},
-      "regularPath": "/common/TypeScript/basics/class-and-interfaces.html",
-      "relativePath": "common/TypeScript/basics/class-and-interfaces.md",
-      "key": "v-5108c986",
-      "path": "/common/TypeScript/basics/class-and-interfaces.html",
+      "regularPath": "/common/TypeScript/basics/generics.html",
+      "relativePath": "common/TypeScript/basics/generics.md",
+      "key": "v-8ab636b4",
+      "path": "/common/TypeScript/basics/generics.html",
       "headers": [
         {
           "level": 2,
-          "title": "类实现接口",
-          "slug": "类实现接口"
+          "title": "简单的例子",
+          "slug": "简单的例子"
         },
         {
           "level": 2,
-          "title": "接口继承接口",
-          "slug": "接口继承接口"
+          "title": "多个类型参数",
+          "slug": "多个类型参数"
         },
         {
           "level": 2,
-          "title": "接口继承类",
-          "slug": "接口继承类"
+          "title": "泛型约束",
+          "slug": "泛型约束"
         },
         {
           "level": 2,
-          "title": "混合类型",
-          "slug": "混合类型"
+          "title": "泛型接口",
+          "slug": "泛型接口"
+        },
+        {
+          "level": 2,
+          "title": "泛型类",
+          "slug": "泛型类"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "安装TypeScript",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/introduction/get-typescript.html",
+      "relativePath": "common/TypeScript/introduction/get-typescript.md",
+      "key": "v-c31491f4",
+      "path": "/common/TypeScript/introduction/get-typescript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1、在全局环境里安装TS",
+          "slug": "_1、在全局环境里安装ts"
+        },
+        {
+          "level": 2,
+          "title": "2、用 tsc 命令编译 .ts 文件",
+          "slug": "_2、用-tsc-命令编译-ts-文件"
+        },
+        {
+          "level": 2,
+          "title": "3、tsconfig.json 配置文件",
+          "slug": "_3、tsconfig-json-配置文件"
+        }
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "接口",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/basics/interfaces.html",
+      "relativePath": "common/TypeScript/basics/interfaces.md",
+      "key": "v-6f502e66",
+      "path": "/common/TypeScript/basics/interfaces.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是接口",
+          "slug": "什么是接口"
+        },
+        {
+          "level": 2,
+          "title": "简单的例子",
+          "slug": "简单的例子"
+        },
+        {
+          "level": 2,
+          "title": "可选属性",
+          "slug": "可选属性"
+        },
+        {
+          "level": 2,
+          "title": "任意属性",
+          "slug": "任意属性"
+        },
+        {
+          "level": 2,
+          "title": "只读属性",
+          "slug": "只读属性"
+        }
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "frontmatter": {
+        "0": "s",
+        "1": "i",
+        "2": "d",
+        "3": "e",
+        "4": "b",
+        "5": "a",
+        "6": "r",
+        "7": ":",
+        "8": "a",
+        "9": "t",
+        "10": "u",
+        "11": "o",
+        "12": ";"
+      },
+      "regularPath": "/common/",
+      "relativePath": "common/index.md",
+      "key": "v-b2d4bb62",
+      "path": "/common/",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/deepUse/",
+      "relativePath": "deepUse/index.md",
+      "key": "v-761f2185",
+      "path": "/deepUse/",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
       "title": "类",
@@ -553,122 +760,41 @@ export const siteData = {
           "title": "类的类型",
           "slug": "类的类型"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "函数的类型",
       "frontmatter": {},
-      "regularPath": "/common/TypeScript/basics/functions.html",
-      "relativePath": "common/TypeScript/basics/functions.md",
-      "key": "v-6aeafdb8",
-      "path": "/common/TypeScript/basics/functions.html",
+      "regularPath": "/project/",
+      "relativePath": "project/index.md",
+      "key": "v-2eb459c5",
+      "path": "/project/",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "vuepress",
+      "frontmatter": {},
+      "regularPath": "/tools/",
+      "relativePath": "tools/index.md",
+      "key": "v-a6928976",
+      "path": "/tools/",
       "headers": [
         {
           "level": 2,
-          "title": "函数声明",
-          "slug": "函数声明"
-        },
-        {
-          "level": 2,
-          "title": "函数表达式",
-          "slug": "函数表达式"
-        },
-        {
-          "level": 2,
-          "title": "用接口定义函数的形状",
-          "slug": "用接口定义函数的形状"
-        },
-        {
-          "level": 2,
-          "title": "可选参数",
-          "slug": "可选参数"
-        },
-        {
-          "level": 2,
-          "title": "参数默认值",
-          "slug": "参数默认值"
-        },
-        {
-          "level": 2,
-          "title": "剩余参数",
-          "slug": "剩余参数"
-        },
-        {
-          "level": 2,
-          "title": "重载",
-          "slug": "重载"
+          "title": "vuepress",
+          "slug": "vuepress"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "泛型",
+      "title": "什么是TypeScript",
       "frontmatter": {},
-      "regularPath": "/common/TypeScript/basics/generics.html",
-      "relativePath": "common/TypeScript/basics/generics.md",
-      "key": "v-8ab636b4",
-      "path": "/common/TypeScript/basics/generics.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "简单的例子",
-          "slug": "简单的例子"
-        },
-        {
-          "level": 2,
-          "title": "多个类型参数",
-          "slug": "多个类型参数"
-        },
-        {
-          "level": 2,
-          "title": "泛型约束",
-          "slug": "泛型约束"
-        },
-        {
-          "level": 2,
-          "title": "泛型接口",
-          "slug": "泛型接口"
-        },
-        {
-          "level": 2,
-          "title": "泛型类",
-          "slug": "泛型类"
-        }
-      ]
-    },
-    {
-      "title": "接口",
-      "frontmatter": {},
-      "regularPath": "/common/TypeScript/basics/interfaces.html",
-      "relativePath": "common/TypeScript/basics/interfaces.md",
-      "key": "v-6f502e66",
-      "path": "/common/TypeScript/basics/interfaces.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "什么是接口",
-          "slug": "什么是接口"
-        },
-        {
-          "level": 2,
-          "title": "简单的例子",
-          "slug": "简单的例子"
-        },
-        {
-          "level": 2,
-          "title": "可选属性",
-          "slug": "可选属性"
-        },
-        {
-          "level": 2,
-          "title": "任意属性",
-          "slug": "任意属性"
-        },
-        {
-          "level": 2,
-          "title": "只读属性",
-          "slug": "只读属性"
-        }
-      ]
+      "regularPath": "/common/TypeScript/introduction/what-is-typescript.html",
+      "relativePath": "common/TypeScript/introduction/what-is-typescript.md",
+      "key": "v-b0de54b4",
+      "path": "/common/TypeScript/introduction/what-is-typescript.html",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
       "title": "Summary",
@@ -702,32 +828,8 @@ export const siteData = {
       "regularPath": "/common/TypeScript/",
       "relativePath": "common/TypeScript/index.md",
       "key": "v-2f8ca01c",
-      "path": "/common/TypeScript/"
-    },
-    {
-      "title": "安装TypeScript",
-      "frontmatter": {},
-      "regularPath": "/common/TypeScript/introduction/get-typescript.html",
-      "relativePath": "common/TypeScript/introduction/get-typescript.md",
-      "key": "v-c31491f4",
-      "path": "/common/TypeScript/introduction/get-typescript.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1、在全局环境里安装TS",
-          "slug": "_1、在全局环境里安装ts"
-        },
-        {
-          "level": 2,
-          "title": "2、用 tsc 命令编译 .ts 文件",
-          "slug": "_2、用-tsc-命令编译-ts-文件"
-        },
-        {
-          "level": 2,
-          "title": "3、tsconfig.json 配置文件",
-          "slug": "_3、tsconfig-json-配置文件"
-        }
-      ]
+      "path": "/common/TypeScript/",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
       "title": "5分钟了解TypeScript",
@@ -757,17 +859,11 @@ export const siteData = {
           "title": "类",
           "slug": "类"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "什么是TypeScript",
-      "frontmatter": {},
-      "regularPath": "/common/TypeScript/introduction/what-is-typescript.html",
-      "relativePath": "common/TypeScript/introduction/what-is-typescript.md",
-      "key": "v-b0de54b4",
-      "path": "/common/TypeScript/introduction/what-is-typescript.html"
-    },
-    {
+      "title": "VUEPRESS",
       "frontmatter": {
         "0": "s",
         "1": "i",
@@ -778,33 +874,10 @@ export const siteData = {
         "6": "r",
         "7": ":",
         "8": "a",
-        "9": "t",
-        "10": "u",
-        "11": "o",
-        "12": ";"
+        "9": "u",
+        "10": "t",
+        "11": "o"
       },
-      "regularPath": "/common/",
-      "relativePath": "common/index.md",
-      "key": "v-b2d4bb62",
-      "path": "/common/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/deepUse/",
-      "relativePath": "deepUse/index.md",
-      "key": "v-761f2185",
-      "path": "/deepUse/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/project/",
-      "relativePath": "project/index.md",
-      "key": "v-2eb459c5",
-      "path": "/project/"
-    },
-    {
-      "title": "VUEPRESS",
-      "frontmatter": {},
       "regularPath": "/tools/VUEPRESS.html",
       "relativePath": "tools/VUEPRESS.md",
       "key": "v-305050d4",
@@ -842,6 +915,36 @@ export const siteData = {
         },
         {
           "level": 2,
+          "title": "6、发布到github.io",
+          "slug": "_6、发布到github-io"
+        },
+        {
+          "level": 3,
+          "title": "1、指向github仓库",
+          "slug": "_1、指向github仓库"
+        },
+        {
+          "level": 3,
+          "title": "2、修改base",
+          "slug": "_2、修改base"
+        },
+        {
+          "level": 3,
+          "title": "3、新增部署文件",
+          "slug": "_3、新增部署文件"
+        },
+        {
+          "level": 3,
+          "title": "4、验证gh-pages",
+          "slug": "_4、验证gh-pages"
+        },
+        {
+          "level": 3,
+          "title": "5、设置website,便于他人访问",
+          "slug": "_5、设置website-便于他人访问"
+        },
+        {
+          "level": 2,
           "title": "4、疑问解决",
           "slug": "_4、疑问解决"
         },
@@ -850,22 +953,8 @@ export const siteData = {
           "title": "1、vuepress热更新失效问题解决",
           "slug": "_1、vuepress热更新失效问题解决"
         }
-      ]
-    },
-    {
-      "title": "vuepress",
-      "frontmatter": {},
-      "regularPath": "/tools/",
-      "relativePath": "tools/index.md",
-      "key": "v-a6928976",
-      "path": "/tools/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "vuepress",
-          "slug": "vuepress"
-        }
-      ]
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
     }
   ],
   "themeConfig": {

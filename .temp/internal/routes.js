@@ -9,24 +9,16 @@ import GlobalLayout from "D:\\knowlegeRefined\\node_modules\\@vuepress\\core\\li
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-d3e6bff6",
-    path: "/common/TypeScript/advanced/",
+    name: "v-1c792bf6",
+    path: "/common/Git/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d3e6bff6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1c792bf6").then(next)
     },
   },
   {
-    path: "/common/TypeScript/advanced/index.html",
-    redirect: "/common/TypeScript/advanced/"
-  },
-  {
-    name: "v-f30c7926",
-    path: "/common/TypeScript/READ.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f30c7926").then(next)
-    },
+    path: "/common/Git/index.html",
+    redirect: "/common/Git/"
   },
   {
     name: "v-9bc56a7c",
@@ -39,6 +31,26 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-f30c7926",
+    path: "/common/TypeScript/READ.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f30c7926").then(next)
+    },
+  },
+  {
+    name: "v-d3e6bff6",
+    path: "/common/TypeScript/advanced/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d3e6bff6").then(next)
+    },
+  },
+  {
+    path: "/common/TypeScript/advanced/index.html",
+    redirect: "/common/TypeScript/advanced/"
   },
   {
     name: "v-2fade2ac",
@@ -65,22 +77,6 @@ export const routes = [
     },
   },
   {
-    name: "v-d8348df4",
-    path: "/common/TypeScript/advanced/decorators.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d8348df4").then(next)
-    },
-  },
-  {
-    name: "v-32a12586",
-    path: "/common/TypeScript/advanced/iterators-and-generators.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-32a12586").then(next)
-    },
-  },
-  {
     name: "v-a1258eac",
     path: "/common/TypeScript/advanced/symbols.html",
     component: GlobalLayout,
@@ -89,11 +85,11 @@ export const routes = [
     },
   },
   {
-    name: "v-4946a368",
-    path: "/common/TypeScript/advanced/variable-declarations.html",
+    name: "v-32a12586",
+    path: "/common/TypeScript/advanced/iterators-and-generators.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4946a368").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-32a12586").then(next)
     },
   },
   {
@@ -107,6 +103,14 @@ export const routes = [
   {
     path: "/common/TypeScript/basics/index.html",
     redirect: "/common/TypeScript/basics/"
+  },
+  {
+    name: "v-d8348df4",
+    path: "/common/TypeScript/advanced/decorators.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d8348df4").then(next)
+    },
   },
   {
     name: "v-1db752b4",
@@ -125,11 +129,11 @@ export const routes = [
     },
   },
   {
-    name: "v-0423ee8e",
-    path: "/common/TypeScript/basics/classes.html",
+    name: "v-4946a368",
+    path: "/common/TypeScript/advanced/variable-declarations.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0423ee8e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4946a368").then(next)
     },
   },
   {
@@ -149,26 +153,6 @@ export const routes = [
     },
   },
   {
-    name: "v-6f502e66",
-    path: "/common/TypeScript/basics/interfaces.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6f502e66").then(next)
-    },
-  },
-  {
-    name: "v-2f8ca01c",
-    path: "/common/TypeScript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2f8ca01c").then(next)
-    },
-  },
-  {
-    path: "/common/TypeScript/index.html",
-    redirect: "/common/TypeScript/"
-  },
-  {
     name: "v-c31491f4",
     path: "/common/TypeScript/introduction/get-typescript.html",
     component: GlobalLayout,
@@ -177,19 +161,11 @@ export const routes = [
     },
   },
   {
-    name: "v-2f829ac6",
-    path: "/common/TypeScript/introduction/hello-typescript.html",
+    name: "v-6f502e66",
+    path: "/common/TypeScript/basics/interfaces.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2f829ac6").then(next)
-    },
-  },
-  {
-    name: "v-b0de54b4",
-    path: "/common/TypeScript/introduction/what-is-typescript.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b0de54b4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6f502e66").then(next)
     },
   },
   {
@@ -217,6 +193,14 @@ export const routes = [
     redirect: "/deepUse/"
   },
   {
+    name: "v-0423ee8e",
+    path: "/common/TypeScript/basics/classes.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0423ee8e").then(next)
+    },
+  },
+  {
     name: "v-2eb459c5",
     path: "/project/",
     component: GlobalLayout,
@@ -229,14 +213,6 @@ export const routes = [
     redirect: "/project/"
   },
   {
-    name: "v-305050d4",
-    path: "/tools/VUEPRESS.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-305050d4").then(next)
-    },
-  },
-  {
     name: "v-a6928976",
     path: "/tools/",
     component: GlobalLayout,
@@ -247,6 +223,42 @@ export const routes = [
   {
     path: "/tools/index.html",
     redirect: "/tools/"
+  },
+  {
+    name: "v-b0de54b4",
+    path: "/common/TypeScript/introduction/what-is-typescript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b0de54b4").then(next)
+    },
+  },
+  {
+    name: "v-2f8ca01c",
+    path: "/common/TypeScript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2f8ca01c").then(next)
+    },
+  },
+  {
+    path: "/common/TypeScript/index.html",
+    redirect: "/common/TypeScript/"
+  },
+  {
+    name: "v-2f829ac6",
+    path: "/common/TypeScript/introduction/hello-typescript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2f829ac6").then(next)
+    },
+  },
+  {
+    name: "v-305050d4",
+    path: "/tools/VUEPRESS.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-305050d4").then(next)
+    },
   },
   {
     path: '*',
