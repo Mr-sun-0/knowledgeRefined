@@ -27,12 +27,7 @@ module.exports = {
         { text: '工具和扩展', link: '/tools/'},
         { text: '项目', link: '/project/'}
       ],
-      sidebar:{
-        '/common':[
-          '',
-          'TypeScript'
-        ]
-      },
+      sidebar:'auto',
       lastUpdated:'最后更新时间'
     }
   }

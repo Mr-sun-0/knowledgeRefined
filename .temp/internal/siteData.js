@@ -40,7 +40,8 @@ export const siteData = {
           "title": "二、常用命令",
           "slug": "二、常用命令"
         }
-      ]
+      ],
+      "lastUpdated": "2021年2月18日星期四晚上9点01分"
     },
     {
       "title": "Home",
@@ -70,7 +71,472 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-9bc56a7c",
       "path": "/",
-      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+      "lastUpdated": "2021年2月18日星期四晚上9点01分"
+    },
+    {
+      "title": "进阶功能",
+      "frontmatter": {},
+      "regularPath": "/common/React/Advanced.html",
+      "relativePath": "common/React/Advanced.md",
+      "key": "v-dfa1a21a",
+      "path": "/common/React/Advanced.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "进阶功能",
+          "slug": "进阶功能"
+        }
+      ]
+    },
+    {
+      "title": "REACT开发环境的搭建",
+      "frontmatter": {},
+      "regularPath": "/common/React/REACT%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA.html",
+      "relativePath": "common/React/REACT开发环境的搭建.md",
+      "key": "v-95a47936",
+      "path": "/common/React/REACT%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "REACT开发环境的搭建",
+          "slug": "react开发环境的搭建"
+        }
+      ]
+    },
+    {
+      "title": "REACT疑问汇总",
+      "frontmatter": {},
+      "regularPath": "/common/React/REACT%E7%96%91%E9%97%AE%E6%B1%87%E6%80%BB.html",
+      "relativePath": "common/React/REACT疑问汇总.md",
+      "key": "v-4abaadb3",
+      "path": "/common/React/REACT%E7%96%91%E9%97%AE%E6%B1%87%E6%80%BB.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "REACT疑问汇总",
+          "slug": "react疑问汇总"
+        }
+      ]
+    },
+    {
+      "title": "一、create-react-app",
+      "frontmatter": {},
+      "regularPath": "/common/React/react.js.html",
+      "relativePath": "common/React/react.js.md",
+      "key": "v-477cca33",
+      "path": "/common/React/react.js.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1、React的起源和发展",
+          "slug": "_1、react的起源和发展"
+        },
+        {
+          "level": 2,
+          "title": "2、React与传统MVC的关系",
+          "slug": "_2、react与传统mvc的关系"
+        },
+        {
+          "level": 2,
+          "title": "3、React高性能的体现：虚拟DOM",
+          "slug": "_3、react高性能的体现-虚拟dom"
+        },
+        {
+          "level": 2,
+          "title": "4、React的特点和优势",
+          "slug": "_4、react的特点和优势"
+        },
+        {
+          "level": 2,
+          "title": "1、函数式组件",
+          "slug": "_1、函数式组件"
+        },
+        {
+          "level": 2,
+          "title": "2、class组件",
+          "slug": "_2、class组件"
+        },
+        {
+          "level": 2,
+          "title": "3、更老的一种方法",
+          "slug": "_3、更老的一种方法"
+        },
+        {
+          "level": 2,
+          "title": "4、组件的组合、嵌套",
+          "slug": "_4、组件的组合、嵌套"
+        },
+        {
+          "level": 2,
+          "title": "1、属性(props)",
+          "slug": "_1、属性-props"
+        },
+        {
+          "level": 3,
+          "title": "(2) props.children",
+          "slug": "_2-props-children"
+        },
+        {
+          "level": 3,
+          "title": "(3) 使用prop-types检查props",
+          "slug": "_3-使用prop-types检查props"
+        },
+        {
+          "level": 2,
+          "title": "3、属性vs状态",
+          "slug": "_3、属性vs状态"
+        },
+        {
+          "level": 2,
+          "title": "5、受控组件与非受控组件",
+          "slug": "_5、受控组件与非受控组件"
+        },
+        {
+          "level": 2,
+          "title": "6、渲染数据",
+          "slug": "_6、渲染数据"
+        },
+        {
+          "level": 2,
+          "title": "1、绑定事件",
+          "slug": "_1、绑定事件"
+        },
+        {
+          "level": 2,
+          "title": "2、事件handler的写法",
+          "slug": "_2、事件handler的写法"
+        },
+        {
+          "level": 2,
+          "title": "3、Event 对象",
+          "slug": "_3、event-对象"
+        },
+        {
+          "level": 2,
+          "title": "4、事件的参数传递",
+          "slug": "_4、事件的参数传递"
+        },
+        {
+          "level": 2,
+          "title": "1、受控组件",
+          "slug": "_1、受控组件"
+        },
+        {
+          "level": 2,
+          "title": "2、textarea 标签",
+          "slug": "_2、textarea-标签"
+        },
+        {
+          "level": 2,
+          "title": "3、select 标签",
+          "slug": "_3、select-标签"
+        },
+        {
+          "level": 2,
+          "title": "4、处理多个输入",
+          "slug": "_4、处理多个输入"
+        },
+        {
+          "level": 2,
+          "title": "5、文件 input 标签",
+          "slug": "_5、文件-input-标签"
+        },
+        {
+          "level": 2,
+          "title": "6、受控输入空值",
+          "slug": "_6、受控输入空值"
+        },
+        {
+          "level": 2,
+          "title": "7、非受控组件",
+          "slug": "_7、非受控组件"
+        },
+        {
+          "level": 3,
+          "title": "(1) 默认值",
+          "slug": "_1-默认值"
+        },
+        {
+          "level": 3,
+          "title": "(2) 文件输入",
+          "slug": "_2-文件输入"
+        },
+        {
+          "level": 2,
+          "title": "1、初始化",
+          "slug": "_1、初始化"
+        },
+        {
+          "level": 2,
+          "title": "1、用法",
+          "slug": "_1、用法"
+        },
+        {
+          "level": 2,
+          "title": "2、在protal中的事件冒泡",
+          "slug": "_2、在protal中的事件冒泡"
+        },
+        {
+          "level": 2,
+          "title": "1、传统MVC框架的缺陷",
+          "slug": "_1、传统mvc框架的缺陷"
+        },
+        {
+          "level": 2,
+          "title": "2、Flux",
+          "slug": "_2、flux"
+        },
+        {
+          "level": 2,
+          "title": "3、Redux",
+          "slug": "_3、redux"
+        },
+        {
+          "level": 3,
+          "title": "(1) 自己实现Redux",
+          "slug": "_1-自己实现redux"
+        },
+        {
+          "level": 3,
+          "title": "(2) 使用Redux框架",
+          "slug": "_2-使用redux框架"
+        },
+        {
+          "level": 3,
+          "title": "(3) 容器组件（Smart/Container Components）和展示组件（Dumb/Presentational Components）",
+          "slug": "_3-容器组件-smart-container-components-和展示组件-dumb-presentational-components"
+        },
+        {
+          "level": 3,
+          "title": "(4) 使用react-redux",
+          "slug": "_4-使用react-redux"
+        },
+        {
+          "level": 2,
+          "title": "1、使用方式",
+          "slug": "_1、使用方式"
+        },
+        {
+          "level": 2,
+          "title": "2、React Router基本原理",
+          "slug": "_2、react-router基本原理"
+        },
+        {
+          "level": 2,
+          "title": "1、JavaScript数据修改的问题",
+          "slug": "_1、javascript数据修改的问题"
+        },
+        {
+          "level": 2,
+          "title": "2、什么是不可变数据",
+          "slug": "_2、什么是不可变数据"
+        },
+        {
+          "level": 2,
+          "title": "3、immutable.js的优缺点",
+          "slug": "_3、immutable-js的优缺点"
+        },
+        {
+          "level": 2,
+          "title": "4、使用Immutable.js",
+          "slug": "_4、使用immutable-js"
+        },
+        {
+          "level": 2,
+          "title": "5、在redux中使用immutable.js",
+          "slug": "_5、在redux中使用immutable-js"
+        },
+        {
+          "level": 2,
+          "title": "1、React.lazy 定义",
+          "slug": "_1、react-lazy-定义"
+        },
+        {
+          "level": 3,
+          "title": "(1) 为什么代码要分割",
+          "slug": "_1-为什么代码要分割"
+        },
+        {
+          "level": 3,
+          "title": "(2) import函数",
+          "slug": "_2-import函数"
+        },
+        {
+          "level": 3,
+          "title": "(3) import函数示例",
+          "slug": "_3-import函数示例"
+        },
+        {
+          "level": 2,
+          "title": "2、如何使用React.lazy",
+          "slug": "_2、如何使用react-lazy"
+        },
+        {
+          "level": 3,
+          "title": "(1) Suspense",
+          "slug": "_1-suspense"
+        },
+        {
+          "level": 2,
+          "title": "1、useState 保存组件状态",
+          "slug": "_1、usestate-保存组件状态"
+        },
+        {
+          "level": 2,
+          "title": "2、useEffect 处理副作用",
+          "slug": "_2、useeffect-处理副作用"
+        },
+        {
+          "level": 2,
+          "title": "3、useContext 减少组件层级",
+          "slug": "_3、usecontext-减少组件层级"
+        },
+        {
+          "level": 2,
+          "title": "4、useReducer",
+          "slug": "_4、usereducer"
+        },
+        {
+          "level": 2,
+          "title": "5、useCallback 记忆函数",
+          "slug": "_5、usecallback-记忆函数"
+        },
+        {
+          "level": 2,
+          "title": "6、useMemo 记忆组件",
+          "slug": "_6、usememo-记忆组件"
+        },
+        {
+          "level": 2,
+          "title": "7、useRef 保存引用值",
+          "slug": "_7、useref-保存引用值"
+        },
+        {
+          "level": 2,
+          "title": "8、useImperativeHandle 透传 Ref",
+          "slug": "_8、useimperativehandle-透传-ref"
+        },
+        {
+          "level": 2,
+          "title": "9、useLayoutEffect 同步执行副作用",
+          "slug": "_9、uselayouteffect-同步执行副作用"
+        },
+        {
+          "level": 3,
+          "title": "(1) useEffect和useLayoutEffect有什么区别？",
+          "slug": "_1-useeffect和uselayouteffect有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "1、搭建环境",
+          "slug": "_1、搭建环境"
+        },
+        {
+          "level": 2,
+          "title": "2、Mobx 入门",
+          "slug": "_2、mobx-入门"
+        },
+        {
+          "level": 3,
+          "title": "(1) observable可观察的状态",
+          "slug": "_1-observable可观察的状态"
+        },
+        {
+          "level": 3,
+          "title": "(2) observable装饰器",
+          "slug": "_2-observable装饰器"
+        },
+        {
+          "level": 3,
+          "title": "(3) 对 observables 作出响应",
+          "slug": "_3-对-observables-作出响应"
+        },
+        {
+          "level": 3,
+          "title": "(4) 改变 observables状态",
+          "slug": "_4-改变-observables状态"
+        },
+        {
+          "level": 2,
+          "title": "3、应用",
+          "slug": "_3、应用"
+        },
+        {
+          "level": 3,
+          "title": "(1) 在react中使用mobx",
+          "slug": "_1-在react中使用mobx"
+        },
+        {
+          "level": 2,
+          "title": "一、create-react-app 支持decorators",
+          "slug": "一、create-react-app-支持decorators"
+        }
+      ]
+    },
+    {
+      "title": "Webpack",
+      "frontmatter": {},
+      "regularPath": "/common/React/Webpack.html",
+      "relativePath": "common/React/Webpack.md",
+      "key": "v-c58b4ca6",
+      "path": "/common/React/Webpack.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、市面上有哪些类似于Webpack的前端工程化工具【 自动化工具 】",
+          "slug": "一、市面上有哪些类似于webpack的前端工程化工具【-自动化工具-】"
+        },
+        {
+          "level": 2,
+          "title": "二、 Webpack版本的发展过程",
+          "slug": "二、-webpack版本的发展过程"
+        },
+        {
+          "level": 2,
+          "title": "三、 Webpack涉及到的前端环境问题",
+          "slug": "三、-webpack涉及到的前端环境问题"
+        },
+        {
+          "level": 2,
+          "title": "五、Webpack的安装",
+          "slug": "五、webpack的安装"
+        },
+        {
+          "level": 3,
+          "title": "1.全局安装(  选择以下一种即可  )",
+          "slug": "_1-全局安装-选择以下一种即可"
+        },
+        {
+          "level": 3,
+          "title": "2.局部安装",
+          "slug": "_2-局部安装"
+        },
+        {
+          "level": 2,
+          "title": "六、Webpack的概念",
+          "slug": "六、webpack的概念"
+        },
+        {
+          "level": 2,
+          "title": "七、Webpack 使用",
+          "slug": "七、webpack-使用"
+        },
+        {
+          "level": 3,
+          "title": "1.终端命令行使用",
+          "slug": "_1-终端命令行使用"
+        },
+        {
+          "level": 3,
+          "title": "2.配置文件使用",
+          "slug": "_2-配置文件使用"
+        },
+        {
+          "level": 3,
+          "title": "3.配置webpack.config.js文件",
+          "slug": "_3-配置webpack-config-js文件"
+        }
+      ]
     },
     {
       "title": "前言",
@@ -80,6 +546,21 @@ export const siteData = {
       "key": "v-f30c7926",
       "path": "/common/TypeScript/READ.html",
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "初识REACT",
+      "frontmatter": {},
+      "regularPath": "/common/React/%E5%88%9D%E8%AF%86REACT.html",
+      "relativePath": "common/React/初识REACT.md",
+      "key": "v-49cdbe23",
+      "path": "/common/React/%E5%88%9D%E8%AF%86REACT.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "初识REACT",
+          "slug": "初识react"
+        }
+      ]
     },
     {
       "title": "高级",
@@ -96,6 +577,21 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "JSX",
+      "frontmatter": {},
+      "regularPath": "/common/React/JSX.html",
+      "relativePath": "common/React/JSX.md",
+      "key": "v-1490ec2e",
+      "path": "/common/React/JSX.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "JSX",
+          "slug": "jsx"
+        }
+      ]
     },
     {
       "title": "基础类型-高级",
@@ -147,6 +643,31 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "面向组件",
+      "frontmatter": {},
+      "regularPath": "/common/React/%E9%9D%A2%E5%90%91%E7%BB%84%E4%BB%B6.html",
+      "relativePath": "common/React/面向组件.md",
+      "key": "v-407fdfc8",
+      "path": "/common/React/%E9%9D%A2%E5%90%91%E7%BB%84%E4%BB%B6.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "面向组件",
+          "slug": "面向组件"
+        },
+        {
+          "level": 3,
+          "title": "state基础",
+          "slug": "state基础"
+        },
+        {
+          "level": 3,
+          "title": "state进阶",
+          "slug": "state进阶"
+        }
+      ]
     },
     {
       "title": "声明文件",
@@ -336,62 +857,6 @@ export const siteData = {
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "基础类型-入门",
-      "frontmatter": {},
-      "regularPath": "/common/TypeScript/basics/basic-types.html",
-      "relativePath": "common/TypeScript/basics/basic-types.md",
-      "key": "v-1db752b4",
-      "path": "/common/TypeScript/basics/basic-types.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "介绍",
-          "slug": "介绍"
-        },
-        {
-          "level": 2,
-          "title": "布尔值",
-          "slug": "布尔值"
-        },
-        {
-          "level": 2,
-          "title": "数字",
-          "slug": "数字"
-        },
-        {
-          "level": 2,
-          "title": "字符串",
-          "slug": "字符串"
-        },
-        {
-          "level": 2,
-          "title": "数组",
-          "slug": "数组"
-        },
-        {
-          "level": 2,
-          "title": "元组 Tuple",
-          "slug": "元组-tuple"
-        },
-        {
-          "level": 2,
-          "title": "枚举",
-          "slug": "枚举"
-        },
-        {
-          "level": 2,
-          "title": "any",
-          "slug": "any"
-        },
-        {
-          "level": 2,
-          "title": "void",
-          "slug": "void"
-        }
-      ],
-      "lastUpdated": "2021年2月2日星期二晚上9点49分"
-    },
-    {
       "title": "类与接口",
       "frontmatter": {},
       "regularPath": "/common/TypeScript/basics/class-and-interfaces.html",
@@ -509,6 +974,98 @@ export const siteData = {
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
+      "title": "基础类型-入门",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/basics/basic-types.html",
+      "relativePath": "common/TypeScript/basics/basic-types.md",
+      "key": "v-1db752b4",
+      "path": "/common/TypeScript/basics/basic-types.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 2,
+          "title": "布尔值",
+          "slug": "布尔值"
+        },
+        {
+          "level": 2,
+          "title": "数字",
+          "slug": "数字"
+        },
+        {
+          "level": 2,
+          "title": "字符串",
+          "slug": "字符串"
+        },
+        {
+          "level": 2,
+          "title": "数组",
+          "slug": "数组"
+        },
+        {
+          "level": 2,
+          "title": "元组 Tuple",
+          "slug": "元组-tuple"
+        },
+        {
+          "level": 2,
+          "title": "枚举",
+          "slug": "枚举"
+        },
+        {
+          "level": 2,
+          "title": "any",
+          "slug": "any"
+        },
+        {
+          "level": 2,
+          "title": "void",
+          "slug": "void"
+        }
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "泛型",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/basics/generics.html",
+      "relativePath": "common/TypeScript/basics/generics.md",
+      "key": "v-8ab636b4",
+      "path": "/common/TypeScript/basics/generics.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "简单的例子",
+          "slug": "简单的例子"
+        },
+        {
+          "level": 2,
+          "title": "多个类型参数",
+          "slug": "多个类型参数"
+        },
+        {
+          "level": 2,
+          "title": "泛型约束",
+          "slug": "泛型约束"
+        },
+        {
+          "level": 2,
+          "title": "泛型接口",
+          "slug": "泛型接口"
+        },
+        {
+          "level": 2,
+          "title": "泛型类",
+          "slug": "泛型类"
+        }
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
       "title": "函数的类型",
       "frontmatter": {},
       "regularPath": "/common/TypeScript/basics/functions.html",
@@ -555,42 +1112,6 @@ export const siteData = {
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "泛型",
-      "frontmatter": {},
-      "regularPath": "/common/TypeScript/basics/generics.html",
-      "relativePath": "common/TypeScript/basics/generics.md",
-      "key": "v-8ab636b4",
-      "path": "/common/TypeScript/basics/generics.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "简单的例子",
-          "slug": "简单的例子"
-        },
-        {
-          "level": 2,
-          "title": "多个类型参数",
-          "slug": "多个类型参数"
-        },
-        {
-          "level": 2,
-          "title": "泛型约束",
-          "slug": "泛型约束"
-        },
-        {
-          "level": 2,
-          "title": "泛型接口",
-          "slug": "泛型接口"
-        },
-        {
-          "level": 2,
-          "title": "泛型类",
-          "slug": "泛型类"
-        }
-      ],
-      "lastUpdated": "2021年2月2日星期二晚上9点49分"
-    },
-    {
       "title": "安装TypeScript",
       "frontmatter": {},
       "regularPath": "/common/TypeScript/introduction/get-typescript.html",
@@ -614,72 +1135,6 @@ export const siteData = {
           "slug": "_3、tsconfig-json-配置文件"
         }
       ],
-      "lastUpdated": "2021年2月2日星期二晚上9点49分"
-    },
-    {
-      "title": "接口",
-      "frontmatter": {},
-      "regularPath": "/common/TypeScript/basics/interfaces.html",
-      "relativePath": "common/TypeScript/basics/interfaces.md",
-      "key": "v-6f502e66",
-      "path": "/common/TypeScript/basics/interfaces.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "什么是接口",
-          "slug": "什么是接口"
-        },
-        {
-          "level": 2,
-          "title": "简单的例子",
-          "slug": "简单的例子"
-        },
-        {
-          "level": 2,
-          "title": "可选属性",
-          "slug": "可选属性"
-        },
-        {
-          "level": 2,
-          "title": "任意属性",
-          "slug": "任意属性"
-        },
-        {
-          "level": 2,
-          "title": "只读属性",
-          "slug": "只读属性"
-        }
-      ],
-      "lastUpdated": "2021年2月2日星期二晚上9点49分"
-    },
-    {
-      "frontmatter": {
-        "0": "s",
-        "1": "i",
-        "2": "d",
-        "3": "e",
-        "4": "b",
-        "5": "a",
-        "6": "r",
-        "7": ":",
-        "8": "a",
-        "9": "t",
-        "10": "u",
-        "11": "o",
-        "12": ";"
-      },
-      "regularPath": "/common/",
-      "relativePath": "common/index.md",
-      "key": "v-b2d4bb62",
-      "path": "/common/",
-      "lastUpdated": "2021年2月2日星期二晚上9点49分"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/deepUse/",
-      "relativePath": "deepUse/index.md",
-      "key": "v-761f2185",
-      "path": "/deepUse/",
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
@@ -764,30 +1219,6 @@ export const siteData = {
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "frontmatter": {},
-      "regularPath": "/project/",
-      "relativePath": "project/index.md",
-      "key": "v-2eb459c5",
-      "path": "/project/",
-      "lastUpdated": "2021年2月2日星期二晚上9点49分"
-    },
-    {
-      "title": "vuepress",
-      "frontmatter": {},
-      "regularPath": "/tools/",
-      "relativePath": "tools/index.md",
-      "key": "v-a6928976",
-      "path": "/tools/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "vuepress",
-          "slug": "vuepress"
-        }
-      ],
-      "lastUpdated": "2021年2月2日星期二晚上9点49分"
-    },
-    {
       "title": "什么是TypeScript",
       "frontmatter": {},
       "regularPath": "/common/TypeScript/introduction/what-is-typescript.html",
@@ -797,69 +1228,41 @@ export const siteData = {
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "Summary",
       "frontmatter": {
-        "0": "t",
+        "0": "s",
         "1": "i",
-        "2": "t",
-        "3": "l",
-        "4": "e",
-        "5": ":",
-        "6": "'",
-        "7": "T",
-        "8": "S",
-        "9": "笔",
-        "10": "记",
-        "11": "'",
-        "12": " ",
-        "13": "s",
-        "14": "i",
-        "15": "d",
-        "16": "e",
-        "17": "b",
-        "18": "a",
-        "19": "r",
-        "20": ":",
-        "21": "a",
-        "22": "u",
-        "23": "t",
-        "24": "o"
+        "2": "d",
+        "3": "e",
+        "4": "b",
+        "5": "a",
+        "6": "r",
+        "7": ":",
+        "8": "a",
+        "9": "t",
+        "10": "u",
+        "11": "o",
+        "12": ";"
       },
-      "regularPath": "/common/TypeScript/",
-      "relativePath": "common/TypeScript/index.md",
-      "key": "v-2f8ca01c",
-      "path": "/common/TypeScript/",
+      "regularPath": "/common/",
+      "relativePath": "common/index.md",
+      "key": "v-b2d4bb62",
+      "path": "/common/",
+      "lastUpdated": "2021年2月18日星期四晚上9点01分"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/deepUse/",
+      "relativePath": "deepUse/index.md",
+      "key": "v-761f2185",
+      "path": "/deepUse/",
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
-      "title": "5分钟了解TypeScript",
       "frontmatter": {},
-      "regularPath": "/common/TypeScript/introduction/hello-typescript.html",
-      "relativePath": "common/TypeScript/introduction/hello-typescript.md",
-      "key": "v-2f829ac6",
-      "path": "/common/TypeScript/introduction/hello-typescript.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "构建第一个TypeScript文件",
-          "slug": "构建第一个typescript文件"
-        },
-        {
-          "level": 2,
-          "title": "类型注解",
-          "slug": "类型注解"
-        },
-        {
-          "level": 2,
-          "title": "接口",
-          "slug": "接口"
-        },
-        {
-          "level": 2,
-          "title": "类",
-          "slug": "类"
-        }
-      ],
+      "regularPath": "/project/",
+      "relativePath": "project/index.md",
+      "key": "v-2eb459c5",
+      "path": "/project/",
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
     },
     {
@@ -954,6 +1357,154 @@ export const siteData = {
           "slug": "_1、vuepress热更新失效问题解决"
         }
       ],
+      "lastUpdated": "2021年2月18日星期四晚上9点01分"
+    },
+    {
+      "title": "REACT",
+      "frontmatter": {},
+      "regularPath": "/common/React/",
+      "relativePath": "common/React/index.md",
+      "key": "v-cab228c8",
+      "path": "/common/React/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "REACT",
+          "slug": "react"
+        },
+        {
+          "level": 3,
+          "title": "大纲",
+          "slug": "大纲"
+        },
+        {
+          "level": 3,
+          "title": "REACT疑问汇总",
+          "slug": "react疑问汇总"
+        },
+        {
+          "level": 3,
+          "title": "学习路径",
+          "slug": "学习路径"
+        }
+      ]
+    },
+    {
+      "title": "接口",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/basics/interfaces.html",
+      "relativePath": "common/TypeScript/basics/interfaces.md",
+      "key": "v-6f502e66",
+      "path": "/common/TypeScript/basics/interfaces.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是接口",
+          "slug": "什么是接口"
+        },
+        {
+          "level": 2,
+          "title": "简单的例子",
+          "slug": "简单的例子"
+        },
+        {
+          "level": 2,
+          "title": "可选属性",
+          "slug": "可选属性"
+        },
+        {
+          "level": 2,
+          "title": "任意属性",
+          "slug": "任意属性"
+        },
+        {
+          "level": 2,
+          "title": "只读属性",
+          "slug": "只读属性"
+        }
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "5分钟了解TypeScript",
+      "frontmatter": {},
+      "regularPath": "/common/TypeScript/introduction/hello-typescript.html",
+      "relativePath": "common/TypeScript/introduction/hello-typescript.md",
+      "key": "v-2f829ac6",
+      "path": "/common/TypeScript/introduction/hello-typescript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "构建第一个TypeScript文件",
+          "slug": "构建第一个typescript文件"
+        },
+        {
+          "level": 2,
+          "title": "类型注解",
+          "slug": "类型注解"
+        },
+        {
+          "level": 2,
+          "title": "接口",
+          "slug": "接口"
+        },
+        {
+          "level": 2,
+          "title": "类",
+          "slug": "类"
+        }
+      ],
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "Summary",
+      "frontmatter": {
+        "0": "t",
+        "1": "i",
+        "2": "t",
+        "3": "l",
+        "4": "e",
+        "5": ":",
+        "6": "'",
+        "7": "T",
+        "8": "S",
+        "9": "笔",
+        "10": "记",
+        "11": "'",
+        "12": " ",
+        "13": "s",
+        "14": "i",
+        "15": "d",
+        "16": "e",
+        "17": "b",
+        "18": "a",
+        "19": "r",
+        "20": ":",
+        "21": "a",
+        "22": "u",
+        "23": "t",
+        "24": "o"
+      },
+      "regularPath": "/common/TypeScript/",
+      "relativePath": "common/TypeScript/index.md",
+      "key": "v-2f8ca01c",
+      "path": "/common/TypeScript/",
+      "lastUpdated": "2021年2月2日星期二晚上9点49分"
+    },
+    {
+      "title": "vuepress",
+      "frontmatter": {},
+      "regularPath": "/tools/",
+      "relativePath": "tools/index.md",
+      "key": "v-a6928976",
+      "path": "/tools/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vuepress",
+          "slug": "vuepress"
+        }
+      ],
       "lastUpdated": "2021年2月2日星期二晚上9点49分"
     }
   ],
@@ -976,12 +1527,7 @@ export const siteData = {
         "link": "/project/"
       }
     ],
-    "sidebar": {
-      "/common": [
-        "",
-        "TypeScript"
-      ]
-    },
+    "sidebar": "auto",
     "lastUpdated": "最后更新时间"
   }
 }

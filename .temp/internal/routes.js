@@ -33,12 +33,84 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-dfa1a21a",
+    path: "/common/React/Advanced.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-dfa1a21a").then(next)
+    },
+  },
+  {
+    name: "v-95a47936",
+    path: "/common/React/REACT%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-95a47936").then(next)
+    },
+  },
+  {
+    path: "/common/React/REACT开发环境的搭建.html",
+    redirect: "/common/React/REACT%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA.html"
+  },
+  {
+    path: "/common/React/REACT开发环境的搭建.html",
+    redirect: "/common/React/REACT%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA.html"
+  },
+  {
+    name: "v-4abaadb3",
+    path: "/common/React/REACT%E7%96%91%E9%97%AE%E6%B1%87%E6%80%BB.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4abaadb3").then(next)
+    },
+  },
+  {
+    path: "/common/React/REACT疑问汇总.html",
+    redirect: "/common/React/REACT%E7%96%91%E9%97%AE%E6%B1%87%E6%80%BB.html"
+  },
+  {
+    path: "/common/React/REACT疑问汇总.html",
+    redirect: "/common/React/REACT%E7%96%91%E9%97%AE%E6%B1%87%E6%80%BB.html"
+  },
+  {
+    name: "v-477cca33",
+    path: "/common/React/react.js.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-477cca33").then(next)
+    },
+  },
+  {
+    name: "v-c58b4ca6",
+    path: "/common/React/Webpack.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c58b4ca6").then(next)
+    },
+  },
+  {
     name: "v-f30c7926",
     path: "/common/TypeScript/READ.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-f30c7926").then(next)
     },
+  },
+  {
+    name: "v-49cdbe23",
+    path: "/common/React/%E5%88%9D%E8%AF%86REACT.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-49cdbe23").then(next)
+    },
+  },
+  {
+    path: "/common/React/初识REACT.html",
+    redirect: "/common/React/%E5%88%9D%E8%AF%86REACT.html"
+  },
+  {
+    path: "/common/React/初识REACT.html",
+    redirect: "/common/React/%E5%88%9D%E8%AF%86REACT.html"
   },
   {
     name: "v-d3e6bff6",
@@ -53,12 +125,36 @@ export const routes = [
     redirect: "/common/TypeScript/advanced/"
   },
   {
+    name: "v-1490ec2e",
+    path: "/common/React/JSX.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1490ec2e").then(next)
+    },
+  },
+  {
     name: "v-2fade2ac",
     path: "/common/TypeScript/advanced/basic-types.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-2fade2ac").then(next)
     },
+  },
+  {
+    name: "v-407fdfc8",
+    path: "/common/React/%E9%9D%A2%E5%90%91%E7%BB%84%E4%BB%B6.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-407fdfc8").then(next)
+    },
+  },
+  {
+    path: "/common/React/面向组件.html",
+    redirect: "/common/React/%E9%9D%A2%E5%90%91%E7%BB%84%E4%BB%B6.html"
+  },
+  {
+    path: "/common/React/面向组件.html",
+    redirect: "/common/React/%E9%9D%A2%E5%90%91%E7%BB%84%E4%BB%B6.html"
   },
   {
     name: "v-2d69ad50",
@@ -113,14 +209,6 @@ export const routes = [
     },
   },
   {
-    name: "v-1db752b4",
-    path: "/common/TypeScript/basics/basic-types.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1db752b4").then(next)
-    },
-  },
-  {
     name: "v-5108c986",
     path: "/common/TypeScript/basics/class-and-interfaces.html",
     component: GlobalLayout,
@@ -137,11 +225,11 @@ export const routes = [
     },
   },
   {
-    name: "v-6aeafdb8",
-    path: "/common/TypeScript/basics/functions.html",
+    name: "v-1db752b4",
+    path: "/common/TypeScript/basics/basic-types.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6aeafdb8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1db752b4").then(next)
     },
   },
   {
@@ -153,6 +241,14 @@ export const routes = [
     },
   },
   {
+    name: "v-6aeafdb8",
+    path: "/common/TypeScript/basics/functions.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6aeafdb8").then(next)
+    },
+  },
+  {
     name: "v-c31491f4",
     path: "/common/TypeScript/introduction/get-typescript.html",
     component: GlobalLayout,
@@ -161,11 +257,19 @@ export const routes = [
     },
   },
   {
-    name: "v-6f502e66",
-    path: "/common/TypeScript/basics/interfaces.html",
+    name: "v-0423ee8e",
+    path: "/common/TypeScript/basics/classes.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6f502e66").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0423ee8e").then(next)
+    },
+  },
+  {
+    name: "v-b0de54b4",
+    path: "/common/TypeScript/introduction/what-is-typescript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b0de54b4").then(next)
     },
   },
   {
@@ -193,14 +297,6 @@ export const routes = [
     redirect: "/deepUse/"
   },
   {
-    name: "v-0423ee8e",
-    path: "/common/TypeScript/basics/classes.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0423ee8e").then(next)
-    },
-  },
-  {
     name: "v-2eb459c5",
     path: "/project/",
     component: GlobalLayout,
@@ -213,23 +309,39 @@ export const routes = [
     redirect: "/project/"
   },
   {
-    name: "v-a6928976",
-    path: "/tools/",
+    name: "v-305050d4",
+    path: "/tools/VUEPRESS.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a6928976").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-305050d4").then(next)
     },
   },
   {
-    path: "/tools/index.html",
-    redirect: "/tools/"
-  },
-  {
-    name: "v-b0de54b4",
-    path: "/common/TypeScript/introduction/what-is-typescript.html",
+    name: "v-cab228c8",
+    path: "/common/React/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b0de54b4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-cab228c8").then(next)
+    },
+  },
+  {
+    path: "/common/React/index.html",
+    redirect: "/common/React/"
+  },
+  {
+    name: "v-6f502e66",
+    path: "/common/TypeScript/basics/interfaces.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6f502e66").then(next)
+    },
+  },
+  {
+    name: "v-2f829ac6",
+    path: "/common/TypeScript/introduction/hello-typescript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2f829ac6").then(next)
     },
   },
   {
@@ -245,20 +357,16 @@ export const routes = [
     redirect: "/common/TypeScript/"
   },
   {
-    name: "v-2f829ac6",
-    path: "/common/TypeScript/introduction/hello-typescript.html",
+    name: "v-a6928976",
+    path: "/tools/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2f829ac6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a6928976").then(next)
     },
   },
   {
-    name: "v-305050d4",
-    path: "/tools/VUEPRESS.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-305050d4").then(next)
-    },
+    path: "/tools/index.html",
+    redirect: "/tools/"
   },
   {
     path: '*',
